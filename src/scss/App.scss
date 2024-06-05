@@ -1,0 +1,13 @@
+@use "./template.scss" as temp;
+
+.custom-app {
+  @include temp.custom-flex(column, start, center);
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding-bottom: 20px;
+
+  background-color: #7746ff;
+}
+
+// #1C1A42
+// #555379

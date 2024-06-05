@@ -1,0 +1,30 @@
+@use "./template.scss" as temp;
+.custom-todos {
+  @include temp.custom-flex(row, space-between, center);
+  width: 100%;
+  margin-top: 20px;
+  box-sizing: border-box;
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  & > div:nth-child(1) {
+    box-sizing: border-box;
+    width: 70%;
+    p {
+      font-size: 18px;
+    }
+    .completed {
+      text-decoration: line-through;
+    }
+  }
+  & > div:nth-child(2) {
+    width: 10%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  & > div:nth-child(3) {
+    width: 10%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
