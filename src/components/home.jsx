@@ -1,95 +1,42 @@
-import React, { useState } from "react";
-import "../style/style.css";
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 function home() {
-  const { counter } = useSelector((state) => state.counter);
-  const [first, setFirst] = useState(0);
-  const [second, setSecond] = useState(0);
   const dispatch = useDispatch();
-  const { adder } = useSelector((state) => state.adder);
-  const increment = () => {
+  const { c } = useSelector((state) => {
+    return state.custom;
+  });
+
+  const addbtn = () => {
     dispatch({
       type: "increment",
     });
   };
-
-  const decrement = () => {
+  const subbtn = () => {
     dispatch({
       type: "decrement",
     });
   };
 
-  const reset = () => {
+  const addbtn20 = () => {
     dispatch({
-      type: "reset",
-      payload: 0,
+      type: "incrementBy20",
+      payload: 20,
     });
   };
 
-  const changehandler = (e, varfunc) => {
-    varfunc(() => {
-      return e.target.value;
-    });
-  };
-
-  const sum = () => {
-    // console.log(typeof first);
-    dispatch({
-      type: "setAdder",
-      payload: Number(first) + Number(second),
-    });
-  };
-  const numberInputOnWheelPreventChange = (e) => {
-    e.target.blur();
-    e.stopPropagation();
-    setTimeout(() => {
-      e.target.focus();
-    }, 0);
-  };
   return (
-    <div className="custom-home">
-      <p>first: {first}</p>
-      <p>Second : {second}</p>
-      <button onClick={increment}>+</button>
-      <label>{counter}</label>
-      <button onClick={decrement}>-</button>
-      <br />
-      <br />
-      <button onClick={reset}>Reset</button>
-      <br />
-      <br />
-      <input
-        type="Number"
-        onChange={(e) => changehandler(e, setFirst)}
-        value={first}
-        style={{ padding: "6px 5px" }}
-        onWheel={numberInputOnWheelPreventChange}
-      />
-      <span style={{ margin: "0 20px", fontSize: "20px" }}>+</span>
+    <div style={{ textAlign: "center" }}>
+      <h1>Home</h1>
 
-      <input
-        type="Number"
-        onChange={(e) => changehandler(e, setSecond)}
-        value={second}
-        style={{ padding: "6px 5px" }}
-        onWheel={numberInputOnWheelPreventChange}
-      />
-      <span style={{ margin: "0 20px", fontSize: "20px" }}>=</span>
-      <input
-        type="text"
-        disabled
-        value={adder}
-        style={{
-          padding: "6px 5px",
-
-          textAlign: "center",
-        }}
-      />
+      <button onClick={addbtn}>Increment</button>
       <br />
       <br />
-
-      <button onClick={sum}>add kro</button>
+      <button onClick={addbtn20}>Increment by 20</button>
+      <br />
+      {/* <h2>{c}</h2> */}
+      <br />
+      <button onClick={subbtn}>decrement</button>
     </div>
   );
 }
