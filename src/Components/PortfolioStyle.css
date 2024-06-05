@@ -1,0 +1,12 @@
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.col-mine-20 {
+  flex: 0 0 auto;
+  width: 20%;
+  height: auto;
+  padding: 0px;
+  /* border: 1px solid black; */
+}

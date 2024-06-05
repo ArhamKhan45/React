@@ -1,0 +1,136 @@
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --contactus-bg-color: #343c3f;
+  --contactus-text-color: #929395;
+  --transparent-color: transparent;
+}
+
+.contactUs-box {
+  background-color: var(--contactus-bg-color);
+  color: var(--contactus-text-color);
+}
+h2.contactusheading {
+  font-weight: 600;
+  display: inline-block;
+  padding-bottom: 25px;
+  position: relative;
+}
+h2.contactusheading:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 12px solid #9f1225;
+}
+.Contactusheadingfontsize {
+  font-size: 32px;
+}
+.minicontact-fontsize {
+  font-size: 28px;
+}
+form.ContactUsformclass input.form-control:focus,
+form.ContactUsformclass textarea.form-control:focus {
+  color: rgb(9, 247, 167);
+}
+textarea.resize {
+  resize: none;
+}
+
+.border-contact-form {
+  border: 2px solid var(--contactus-text-color);
+  color: #929395;
+}
+
+.contactsubmitbutton {
+  width: 80px;
+  height: 80px;
+}
+
+/* media query  */
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  h2.contactusheading {
+    padding-bottom: 10px;
+  }
+  h2.contactusheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .Contactusheadingfontsize {
+    font-size: 12px;
+  }
+  .minicontact-fontsize {
+    font-size: 8.5px;
+  }
+  .form-control {
+    padding: 5px;
+    font-size: 8px;
+  }
+  .contactsubmitbutton {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .Contactusheadingfontsize {
+    font-size: 14px;
+  }
+  h2.contactusheading {
+    padding-bottom: 10px;
+  }
+  h2.contactusheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .minicontact-fontsize {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  h2.contactusheading {
+    padding-bottom: 10px;
+  }
+  h2.contactusheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .Contactusheadingfontsize {
+    font-size: 21px;
+  }
+  .minicontact-fontsize {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  h2.contactusheading {
+    padding-bottom: 15px;
+  }
+  h2.contactusheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .Contactusheadingfontsize {
+    font-size: 21px;
+  }
+  .minicontact-fontsize {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  h2.contactusheading {
+    padding-bottom: 18px;
+  }
+  h2.contactusheading:before {
+    border-bottom: 8px solid #9f1225;
+  }
+  .Contactusheadingfontsize {
+    font-size: 30px;
+  }
+  .minicontact-fontsize {
+    font-size: 25px;
+  }
+}

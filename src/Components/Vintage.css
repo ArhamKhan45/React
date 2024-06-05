@@ -1,0 +1,132 @@
+.vintage-title {
+  width: 500px;
+  /* border: 2px solid turquoise; */
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.vintage-subtitle1 {
+  border-top: 2px solid #9a1125;
+  border-bottom: 2px solid #9a1125;
+  font-size: 40px;
+  font-weight: 600;
+  width: 700px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  user-select: none;
+  box-sizing: border-box;
+}
+.vintage-subtitle2 {
+  /* border: 2px solid darkblue; */
+  font-size: 18px;
+  font-weight: 600;
+  width: 635px;
+  color: #c2c2c2;
+  text-align: center;
+  margin: 0 auto;
+  user-select: none;
+  box-sizing: border-box;
+}
+.vintage-logo-box {
+  width: 200px;
+}
+.rotation-animation {
+  animation: rotation-animation 4s infinite linear;
+}
+
+@keyframes rotation-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .vintage-title {
+    font-size: 20px;
+    width: fit-content;
+  }
+  .vintage-subtitle1 {
+    font-size: 15px;
+    width: fit-content;
+  }
+  .vintage-subtitle2 {
+    /* border: 2px solid darkblue; */
+    font-size: 13px;
+    font-weight: 600;
+    width: fit-content;
+  }
+  .vintage-logo-box {
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .vintage-title {
+    font-size: 20px;
+    width: fit-content;
+  }
+  .vintage-subtitle1 {
+    font-size: 15px;
+    width: 400px;
+  }
+  .vintage-subtitle2 {
+    /* border: 2px solid darkblue; */
+    width: 400px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 400px;
+  }
+  .vintage-logo-box {
+    width: 125px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .vintage-title {
+    font-size: 20px;
+    width: fit-content;
+  }
+  .vintage-subtitle1 {
+    font-size: 15px;
+    width: 400px;
+  }
+  .vintage-subtitle2 {
+    /* border: 2px solid darkblue; */
+    width: 400px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 400px;
+  }
+  .vintage-logo-box {
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .vintage-title {
+    font-size: 20px;
+    width: fit-content;
+  }
+  .vintage-subtitle1 {
+    font-size: 15px;
+    width: 400px;
+  }
+  .vintage-subtitle2 {
+    /* border: 2px solid darkblue; */
+    width: 400px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 400px;
+  }
+  .vintage-logo-box {
+    width: 175px;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+}

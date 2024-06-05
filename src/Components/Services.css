@@ -1,0 +1,207 @@
+:root {
+  --bg-project-btn: black;
+}
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+h2.serviceheading {
+  font-weight: 600;
+  display: inline-block;
+  padding-bottom: 25px;
+  position: relative;
+}
+h2.serviceheading:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 12px solid #951425;
+}
+.serviceheadingfontsize {
+  font-size: 32px;
+}
+.miniservice-fontsize {
+  font-size: 28px;
+}
+
+.service-main-box {
+  background-image: url(./images/slider_img_3.png);
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
+.service-icon {
+  border: 20px solid #9f1225;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  font-size: 60px;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: white;
+  color: black;
+  margin: 0 auto;
+}
+.service-icon-open-box {
+  background-color: #9f1225;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.project-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  border-radius: 0px;
+  background-color: var(--bg-project-btn);
+}
+.project-btn:hover {
+  color: white;
+  border-radius: 0px;
+  background-color: var(--bg-project-btn);
+}
+.project-btn:active {
+  color: white;
+  border-radius: 0px;
+  background-color: rgb(69, 25, 227) !important;
+}
+.accordion-button.arrow-remove::after {
+  background-image: none;
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+.accordion-button.arrow-remove:not(.collapsed)::after {
+  background-image: none;
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+.accordion-button {
+  width: auto;
+  display: inline;
+}
+.accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: var(--bs-accordion-bg);
+  border: none;
+}
+.custom-col-3 {
+  width: 25%;
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .serviceheadingfontsize {
+    font-size: 10px;
+  }
+
+  h2.serviceheading {
+    padding-bottom: 10px;
+  }
+  h2.serviceheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .miniservice-fontsize {
+    font-size: 8.5px;
+  }
+  .service-main-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .service-icon {
+    border: 2px solid #9f1225;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .serviceheadingfontsize {
+    font-size: 16px;
+  }
+
+  h2.serviceheading {
+    padding-bottom: 10px;
+  }
+  h2.serviceheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .miniservice-fontsize {
+    font-size: 16px;
+  }
+  .service-icon {
+    border: 5px solid #9f1225;
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  h2.serviceheading {
+    padding-bottom: 10px;
+  }
+  h2.serviceheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .serviceheadingfontsize {
+    font-size: 21px;
+  }
+  .miniservice-fontsize {
+    font-size: 18px;
+  }
+  .service-icon {
+    border: 10px solid #9f1225;
+    width: 150px;
+    height: 130px;
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  h2.serviceheading {
+    padding-bottom: 15px;
+  }
+  h2.serviceheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .serviceheadingfontsiz {
+    font-size: 21px;
+  }
+  .miniservice-fontsize {
+    font-size: 18px;
+  }
+  .service-icon {
+    border: 10px solid #9f1225;
+    width: 200px;
+    height: 180px;
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  h2.serviceheading {
+    padding-bottom: 18px;
+  }
+  h2.serviceheading:before {
+    border-bottom: 8px solid #9f1225;
+  }
+  .serviceheadingfontsize {
+    font-size: 30px;
+  }
+  .miniservice-fontsize {
+    font-size: 25px;
+  }
+  .service-icon {
+    border: 10px solid #9f1225;
+    width: 200px;
+    height: 180px;
+    font-size: 60px;
+  }
+}

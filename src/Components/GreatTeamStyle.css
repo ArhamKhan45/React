@@ -1,0 +1,165 @@
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+h2.greatteamheading {
+  font-weight: 600;
+  display: inline-block;
+  padding-bottom: 25px;
+  position: relative;
+}
+h2.greatteamheading:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 12px solid #9f1225;
+}
+.greatteamheadingfontsize {
+  font-size: 32px;
+}
+.minigt-fontsize {
+  font-size: 28px;
+}
+label.gtname {
+  font-weight: 600;
+  display: inline-block;
+  padding-bottom: 15px;
+  position: relative;
+}
+label.gtname:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 8px solid #9f1225;
+}
+.gt-detail-box {
+  background-color: #efefef;
+  margin: 0 auto;
+  border-bottom: 5px solid #9f1225;
+}
+.gt-detail-box :nth-child(1) {
+  font-size: 21px;
+}
+.gt-detail-box :nth-child(3) {
+  font-size: 19px;
+}
+.gt-detail-box :nth-child(4) {
+  font-size: 16px;
+}
+.twitterbox {
+  color: #1da1f2;
+  border: 2px solid #1da1f2;
+}
+.envolopebox {
+  color: #d6a26a;
+  border: 2px solid #d6a26a;
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .greatteamheadingfontsize {
+    font-size: 10px;
+  }
+
+  h2.greatteamheading {
+    padding-bottom: 10px;
+  }
+  h2.greatteamheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .minigt-fontsize {
+    font-size: 8.5px;
+  }
+  .gt-detail-box :nth-child(1) {
+    font-size: 13px;
+  }
+  .gt-detail-box :nth-child(3) {
+    font-size: 11.5px;
+  }
+  .gt-detail-box :nth-child(4) {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .greatteamheadingfontsize {
+    font-size: 16px;
+  }
+
+  h2.greatteamheading {
+    padding-bottom: 10px;
+  }
+  h2.greatteamheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .minigt-fontsize {
+    font-size: 16px;
+  }
+  .gt-detail-box :nth-child(1) {
+    font-size: 15px;
+  }
+  .gt-detail-box :nth-child(3) {
+    font-size: 13.5px;
+  }
+  .gt-detail-box :nth-child(4) {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  h2.greatteamheading {
+    padding-bottom: 10px;
+  }
+  h2.greatteamheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .greatteamheadingfontsize {
+    font-size: 21px;
+  }
+  .minigt-fontsize {
+    font-size: 18px;
+  }
+  .gt-detail-box :nth-child(1) {
+    font-size: 18px;
+  }
+  .gt-detail-box :nth-child(3) {
+    font-size: 15px;
+  }
+  .gt-detail-box :nth-child(4) {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  h2.greatteamheading {
+    padding-bottom: 15px;
+  }
+  h2.greatteamheading:before {
+    border-bottom: 7px solid #9f1225;
+  }
+  .greatteamheadingfontsiz {
+    font-size: 21px;
+  }
+  .minigt-fontsize {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  h2.greatteamheading {
+    padding-bottom: 18px;
+  }
+  h2.greatteamheading:before {
+    border-bottom: 8px solid #9f1225;
+  }
+  .greatteamheadingfontsize {
+    font-size: 30px;
+  }
+  .minigt-fontsize {
+    font-size: 25px;
+  }
+}

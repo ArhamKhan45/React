@@ -1,0 +1,24 @@
+:root {
+  --footer-color: #67686a;
+  --footer-background-color: #182023;
+}
+.bg-footer-color {
+  background-color: var(--footer-background-color);
+}
+.footer-media-icon-color {
+  color: var(--footer-color);
+}
+.footer-media-icon-border {
+  border: 3px solid var(--footer-color);
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .footer-col-font-size {
+    font-size: 10px;
+  }
+  .smallscreen-iconpadding {
+    padding: 5px;
+  }
+  .smallscreen-fb-iconpadding {
+    padding: 6px;
+  }
+}
