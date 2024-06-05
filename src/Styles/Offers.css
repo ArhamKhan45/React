@@ -1,0 +1,15 @@
+.offersSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1vmax;
+}
+.offersSection > div {
+  margin: 0 1vmax;
+  transition: all 0.5s;
+}
+.offersSection > div:hover {
+  box-shadow: 6px 6px 15px rgba(53, 53, 0, 0.35);
+}

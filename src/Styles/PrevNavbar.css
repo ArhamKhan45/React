@@ -1,0 +1,53 @@
+:root {
+  --bg-nav-color: black;
+  --nav-color: white;
+  --nav-text-color: rgb(180, 180, 180);
+  --site-Orange: #ff6900;
+  --custom-bs-dropdown-link-active-color: black;
+  --custom-bs-dropdown-link-active-bg: white;
+}
+
+.prevNav {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  color: var(--nav-color);
+  background-color: var(--bg-nav-color);
+}
+
+.prevNav > div {
+  display: flex;
+  align-items: center;
+  padding: 0 4vmax;
+}
+.prevNav > div > span {
+  color: rgba(180, 180, 180, 0.644);
+  font-size: 0.8vmax;
+  font-weight: 100;
+}
+.border {
+  border: 2px solid red;
+}
+.prevNav > div > a {
+  color: var(--nav-text-color);
+  font-size: 0.9vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  margin: 1vmax;
+  text-decoration: none;
+}
+
+.prevNav > div > a:hover {
+  color: var(--nav-color);
+}
+
+.prevNav > div > a > svg {
+  fill: var(--nav-text-color);
+}
+.prevNav > div > a > svg:hover {
+  fill: var(--nav-color);
+}
+
+/* .cartIcon > svg {
+  height: 1.1vmax;
+  width: 1.4vmax;
+} */

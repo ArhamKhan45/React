@@ -1,0 +1,48 @@
+.mainHotAccessories {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  margin: auto;
+}
+.mainHotAccessories > div:first-child > img {
+  width: 22vw;
+  margin: 0.2vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mainHotAccessories > div:first-child > img:hover {
+  transform: translateY(-0.4vmax);
+  box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}
+
+.itemdisplay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.itemlink {
+  display: flex;
+  width: 31%;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  margin: 0.6vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.itemlink > img {
+  width: 70%;
+}
+.itemlink > p:nth-child(2) {
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(85, 83, 83);
+}
+.itemlink > p:nth-child(3) {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: orangered;
+}
+.itemlink:hover {
+  transform: translateY(-0.4vmax);
+  box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}

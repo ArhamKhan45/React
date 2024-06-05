@@ -1,0 +1,98 @@
+.prefooter {
+  margin: 5vmax 0 0 0;
+  background-color: white;
+  padding: 1vmax 1vmax 0vmax;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.prefooter > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(66, 66, 66, 0.83);
+  cursor: pointer;
+}
+.prefooter > div svg {
+  fill: rgba(37, 37, 37, 0.322);
+  transform: scale(2) translateY(-0.2vmax);
+  margin: 2vmax;
+}
+.prefooter > div > p > span {
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.prefooter > div:hover svg {
+  fill: black;
+}
+.prefooter > div:hover p > span {
+  color: black;
+}
+.prefooter > div:hover p {
+  color: rgba(0, 0, 0, 0.884);
+}
+
+.prefooter2 {
+  display: grid;
+  height: 150px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.prefooter2 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prefooter2 > div > h3 {
+  color: rgba(0, 0, 0, 0.842);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5vmax;
+  width: 18vmax;
+  margin: 0%;
+}
+.prefooter2 > div > p {
+  color: rgba(51, 51, 51, 0.842);
+  width: 18vmax;
+  font-size: 1vmax;
+}
+.emailinput {
+  border: 1px solid rgba(126, 126, 126, 0.493);
+  border-right: none;
+  outline: none;
+  padding: 0.5vmax 1vmax;
+  background-color: white;
+  width: 20.4vmax;
+  font-size: 1vmax;
+}
+.prefooter2 > div > div > form > button {
+  border: 1px solid rgba(126, 126, 126, 0.493);
+  border-left: none;
+  outline: none;
+  background-color: white;
+  padding: 0.5vmax;
+}
+.prefooter2 > div > div > form > button > svg {
+  width: 1vmax;
+  height: 1vmax;
+}
+.prefooter2 > div:nth-child(2) > p {
+  width: 22vmax;
+}
+.prefooter2 > div:nth-child(3) {
+  justify-content: center;
+  align-items: flex-end;
+}
+.prefooter2 > div:nth-child(4) {
+  flex-direction: row;
+}
+.prefooter2 > div:nth-child(4) svg {
+  cursor: pointer;
+  margin: 1vmax;
+  fill: rgba(126, 126, 126, 0.493);
+  transition: all 0.5s;
+}
+.prefooter2 > div:nth-child(4) svg:hover {
+  fill: #5e5e5e;
+}

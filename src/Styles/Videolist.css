@@ -1,0 +1,63 @@
+.Videolist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VideolistItem {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.VideolistminiItem {
+  margin: 0.5vmax;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.VideolistminiItem1 {
+  position: absolute;
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.VideolistminiItem1 > p {
+  font-size: 1.2vmax;
+  font-weight: 600;
+  margin-top: 1.23vmax;
+}
+.VideolistminiItem2 {
+}
+
+.VideolistminiItem1 > .playbutton {
+  display: flex;
+  padding: 2.5vmax;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.VideolistminiItem1 > .playbutton svg {
+  fill: rgb(255, 255, 255);
+}
+.VideolistminiItem2 > img {
+  width: 28.8vmax;
+}
+
+.VideolistminiItem:hover .playbutton {
+  border: none;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.571);
+  color: white;
+}

@@ -1,0 +1,22 @@
+:root {
+  --HotaccessoriesLink-text-color: rgb(94, 94, 94);
+  --hover-color-site-orange: #ff4500;
+}
+
+.HotAccessoriesMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HotaccessoriesLink {
+  margin: 1vmax;
+  color: var(--HotaccessoriesLink-text-color);
+  text-decoration: none;
+  padding: 0.5vmax 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.HotaccessoriesLink:hover {
+  color: var(--hover-color-site-orange);
+  border-bottom: 1px solid #ff4500;
+}
