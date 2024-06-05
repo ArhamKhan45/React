@@ -1,0 +1,99 @@
+.Custom-Ourteams > .row > .col-12 {
+  position: relative;
+  overflow: hidden;
+}
+
+.Custom-Ourteams > .row > .col-12 > img {
+  height: 405px;
+  width: 95%;
+}
+
+.title {
+  border-top: 5px solid #ffdd15;
+  /*positioned relative to parent div (container) */
+  position: absolute;
+  /* bottom margin is 0 so that it
+	coincides with container's bottom margin*/
+  /* bottom: 1px; */
+  background-color: black;
+  width: calc(95% - 20px);
+  bottom: -277px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding: 25px 0px;
+
+  text-align: center;
+
+  z-index: 900;
+  animation-name: infoOut;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+.Custom-Ourteams .title > h3 {
+  color: white;
+}
+.Custom-Ourteams .title > p {
+  margin: 10px 0px;
+  color: #ffdd15;
+}
+.Custom-Ourteams .title div > span {
+  color: #737070;
+  margin: 0 10px;
+  transition: all 0.6s ease-in-out;
+}
+
+.Custom-Ourteams .title div > span > svg:hover {
+  color: skyblue;
+}
+
+.Custom-Ourteams > .row > .col-12:hover .title {
+  animation: infoIn 0.8s linear;
+  animation-fill-mode: both;
+  animation-direction: normal;
+  display: block;
+}
+
+@keyframes infoIn {
+  0% {
+    bottom: -200px;
+  }
+
+  100% {
+    bottom: 0px;
+  }
+}
+
+@keyframes infoOut {
+  0% {
+    bottom: 0px;
+    display: block;
+    /* width: 305px; */
+  }
+
+  100% {
+    /* width: 305px; */
+    display: none;
+    bottom: -200px;
+  }
+}
+
+/* media query  */
+
+@media only screen and (min-width: 0px) {
+}
+
+@media only screen and (min-width: 576px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1400px) {
+}

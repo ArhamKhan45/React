@@ -1,0 +1,125 @@
+.custom-mini-carousel {
+  width: clamp(270px, 75%, 550px);
+  margin: auto;
+  /* border: 2px solid black;  */
+}
+
+.custom-mini-carousel .slick-next {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: rgb(238, 22, 22);
+  fill: white;
+  left: 0;
+  right: 0;
+  margin: 0 calc(50% + 10px);
+  margin-top: 220px;
+}
+.custom-mini-carousel .slick-prev {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: rgb(238, 22, 22);
+  fill: white;
+  left: 0;
+  right: 0;
+  margin: 0 calc(50% - 24px);
+  margin-top: 220px;
+}
+
+.custom-mini-carousel .slick-next:hover,
+.custom-mini-carousel .slick-prev:hover {
+  background-color: white;
+  fill: black;
+}
+
+.speech-bubble {
+  position: relative;
+  background: rgba(208, 202, 202, 0.28);
+  border-radius: 0.4em;
+  margin-bottom: 40px;
+  padding: 45px;
+  text-align: start;
+}
+
+.speech-bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: rgba(208, 202, 202, 0.28);
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: 50px;
+  margin-bottom: -49.5px;
+}
+.speech-bubble > h4 > span {
+  color: #ffdc39;
+  font-size: 18.5px;
+  margin-left: 20px;
+}
+.speech-bubble > p {
+  color: white;
+  line-height: 32px;
+  font-size: 16.5px;
+}
+/* media query  */
+/* Small	xs	≥0px */
+@media only screen and (min-width: 0px) {
+  /* .custom-mini-carousel {
+    width: auto;
+  } */
+
+  .custom-mini-carousel .slick-next {
+    margin: 0 calc(50% + 10px);
+    margin-top: 265px;
+  }
+  .custom-mini-carousel .slick-prev {
+    margin: 0 calc(50% - 24px);
+    margin-top: 265px;
+  }
+}
+
+/* Small	sm	≥576px */
+@media only screen and (min-width: 576px) {
+  .custom-mini-carousel .slick-next {
+    margin: 0 calc(50% + 10px);
+    margin-top: 220px;
+  }
+  .custom-mini-carousel .slick-prev {
+    margin: 0 calc(50% - 24px);
+    margin-top: 220px;
+  }
+}
+/* Medium	md	≥768px */
+@media only screen and (min-width: 768px) {
+  /* .custom-mini-carousel {
+    width: 550px;
+  } */
+
+  .custom-mini-carousel .slick-next {
+    margin: 0 calc(50% + 10px);
+    margin-top: 220px;
+  }
+  .custom-mini-carousel .slick-prev {
+    margin: 0 calc(50% - 24px);
+    margin-top: 220px;
+  }
+}
+
+/* Large	lg	≥992px */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large	xl	≥1200px */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Extra extra large	xxl	≥1400px */
+@media only screen and (min-width: 1400px) {
+}

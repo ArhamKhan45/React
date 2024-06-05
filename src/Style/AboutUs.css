@@ -1,0 +1,22 @@
+/* .custom-about .row > .col-12 > img {
+  margin-bottom: 54px;
+} */
+
+.custom-about {
+  margin-bottom: 60px;
+}
+.custom-about-info {
+  padding: 15px 15px;
+  /* border: 2px solid red; */
+}
+
+.custom-about .row > .custom-about-info > p {
+  font-size: 17px;
+  color: #737070;
+}
+
+.custom-about .row > .custom-about-info > button {
+  font-size: 17px;
+  font-weight: 400;
+  background-color: #ffdc39;
+}

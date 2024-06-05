@@ -1,0 +1,94 @@
+.custom-main-footer {
+  background-color: #080808;
+}
+
+.custom-main-footer h4 {
+  color: white;
+  font-size: 30px;
+}
+/* first footer */
+.custom-main-footer > .row > .col-lg-2 > p {
+  font-size: 14px;
+  line-height: 25px;
+}
+.footer-mini-social-icons > a > svg {
+  width: 35px;
+  height: 25px;
+  fill: white;
+}
+
+/* second mini footer */
+
+.custom-main-footer > .row > .col-lg-2:nth-child(2) > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* footer fourth */
+
+.custom-main-footer h4 + p,
+.custom-main-footer .custom-contact-info > .row > .col-lg-10 > p {
+  color: #737070;
+}
+.custom-main-footer h4 + ul > li > a {
+  color: #737070;
+  text-decoration: none;
+}
+.custom-main-footer h4 + ul > li > a:hover {
+  color: white;
+}
+.custom-main-footer .custom-contact-info > .row > .col-lg-10 > p:first-child {
+  color: white;
+}
+.custom-main-footer .custom-contact-info > .row > .col-lg-1 > svg {
+  fill: rgb(240, 232, 232);
+  width: 35px;
+  height: 25px;
+}
+
+.custom-main-footer .custom-contact-info > .row > .col-lg-1 > svg > rect {
+  fill: #080808;
+}
+.w-lg-80 {
+  width: 80%;
+}
+
+.custom-insta-footer {
+}
+.custom-insta-footer > .row > .col-4 {
+  /* border: 2px solid red; */
+  padding: 0px;
+}
+.custom-insta-footer > .row > .col-4 > img {
+  /* border: 2px solid red; */
+  width: 85%;
+  height: 85%;
+}
+/* media query */
+/* Small	sm	≥0px */
+@media only screen and (min-width: 0px) {
+  .custom-main-footer > .row > .col-lg-2:nth-child(2) > ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+}
+/* Small	sm	≥576px */
+@media only screen and (min-width: 576px) {
+}
+
+/* Medium	md	≥768px */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large	lg	≥992px */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large	xl	≥1200px */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Extra extra large	xxl	≥1400px */
+@media only screen and (min-width: 1400px) {
+}

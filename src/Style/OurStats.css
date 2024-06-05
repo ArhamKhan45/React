@@ -1,0 +1,75 @@
+:root {
+  --statsno-color: #ffdd15;
+}
+.custom-OurStats {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.custom-OurStats h3 {
+  font-weight: 700;
+  text-align: center;
+  /* border: 1px solid red; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-OurStats > .row:nth-child(2) > .col-12 > p {
+  color: rgba(105, 102, 102, 0.712);
+}
+
+.custom-counter-stats {
+  margin-bottom: 50px;
+}
+
+.custom-counter-stats > .row > .col-lg-3 > p:first-child {
+  color: var(--statsno-color);
+  font-size: 60px;
+  font-weight: 700;
+}
+.custom-counter-stats > .row > .col-lg-3 > p:nth-child(2) {
+  color: var();
+  font-weight: 500;
+  font-size: 24px;
+}
+.custom-counter-stats > .row > .col-lg-3 > p:nth-child(3) {
+  color: rgba(105, 102, 102, 0.712);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+/* Small	xs	≥0px */
+@media only screen and (min-width: 0px) {
+  .custom-OurStats h3 {
+    font-size: 30px;
+  }
+  .custom-OurStats > .row:nth-child(2) > .col-12 > p {
+    color: rgba(105, 102, 102, 0.486);
+    font-size: 14px;
+  }
+}
+/* Small	sm	≥576px */
+@media only screen and (min-width: 576px) {
+}
+
+/* Medium	md	≥768px */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large	lg	≥992px */
+@media only screen and (min-width: 992px) {
+  .custom-OurStats h3 {
+    font-size: 40px;
+  }
+  .custom-OurStats > .row:nth-child(2) > .col-lg-7 > p {
+    color: rgba(105, 102, 102, 0.712);
+    font-size: 17px;
+  }
+}
+
+/* Extra large	xl	≥1200px */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Extra extra large	xxl	≥1400px */
+@media only screen and (min-width: 1400px) {
+}

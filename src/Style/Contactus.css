@@ -1,0 +1,36 @@
+.Custom-contactus {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.Custom-contactus > .row > .custom-address > div:first-child {
+  text-align: center;
+  padding: 15px 0px;
+  background-color: black;
+  margin-bottom: 15px;
+}
+.Custom-contactus > .row > .custom-address > div:first-child > h3 {
+  color: #f1efef;
+}
+.Custom-contactus > .row > .custom-address > div:first-child > p {
+  color: #f1efefc0;
+}
+
+.Custom-contactus > .row > .send-mail {
+  background-color: black;
+  padding: 50px 40px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.custom-send-msg-button > input[type="submit"] {
+  color: black;
+  height: 150px;
+  box-sizing: border-box;
+  background-color: #ffdc39;
+  transition: all 0.3s linear;
+  margin-top: 15px;
+}
+.custom-send-msg-button > input[type="submit"]:hover {
+  color: rgb(95, 92, 92);
+  background-color: rgb(212, 185, 212);
+}

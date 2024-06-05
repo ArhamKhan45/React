@@ -1,0 +1,25 @@
+.custom-Smooth-shipping {
+}
+
+.custom-mini-Smooth-shipping-1 > .col-12 > h4 {
+  font-size: 3vmax;
+  text-align: center;
+  font-weight: 600;
+}
+.custom-mini-Smooth-shipping-1 > .col-12 > p {
+  text-align: center;
+  font-size: 15px;
+}
+.custom-mini-Smooth-shipping-1 > .col-12 {
+  margin: 0px auto 15px;
+}
+
+.custom-mini-Smooth-shipping-2 .custom-basic-Card > .card:first-child {
+  margin-left: auto;
+}
+.custom-mini-Smooth-shipping-2:nth-child(2) .custom-basic-Card > .card {
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 0) {
+}

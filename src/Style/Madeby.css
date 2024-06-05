@@ -1,0 +1,10 @@
+.custom-madeby {
+  background-color: #080808;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+.custom-madeby > .row > .col-12 > p {
+  color: #737070;
+
+  text-align: center;
+}

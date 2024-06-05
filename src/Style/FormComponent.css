@@ -1,0 +1,57 @@
+.custom-form-quote > .row > div > div > svg {
+  width: 60px;
+  height: 70px !important;
+}
+
+.custom-form-quote > .row > div > div > h3 {
+  /* text-align: center; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+}
+
+.upper-shifter-form-component {
+  /* position: relative; */
+  z-index: -1;
+}
+
+.upper-shifter-form-component-helper {
+  position: relative;
+  top: -100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  /* margin-bottom: -50px; */
+}
+
+/* Media query  */
+
+/* Extra small	 xsm	<576px */
+@media only screen and (min-width: 0px) {
+  .upper-shifter-form-component-helper {
+    top: -100px;
+  }
+}
+
+/* Small	sm	≥576px */
+@media only screen and (min-width: 576px) {
+}
+
+/* Medium	md	≥768px */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large	lg	≥992px */
+@media only screen and (min-width: 992px) {
+  .upper-shifter-form-component-helper {
+    top: -100px;
+  }
+}
+
+/* Extra large	xl	≥1200px */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Extra extra large	xxl	≥1400px */
+@media only screen and (min-width: 1400px) {
+}

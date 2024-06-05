@@ -1,0 +1,75 @@
+:root {
+  --custom-callbar-bgcolor: #ffdc39;
+}
+
+.custom-callbar {
+  background-color: var(--custom-callbar-bgcolor);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.custom-callbar > .row > .col-lg-7 {
+  text-align: center;
+}
+.custom-callbar > .row > .col-lg-7 > p {
+  font-size: 2vmax;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.custom-callbar > .row > .col-lg-4 {
+  text-align: center;
+}
+.custom-callbar > .row > .col-lg-4 > a {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+/* Small	xs	≥0px */
+@media only screen and (min-width: 0px) {
+  .custom-callbar > .row > .col-12 > a {
+    font-size: 2vmax;
+    letter-spacing: 2px;
+  }
+  .custom-callbar > .row > .col-12 > p {
+    font-size: 2.5vmax;
+    letter-spacing: 1px;
+  }
+}
+/* Small	sm	≥576px */
+@media only screen and (min-width: 576px) {
+}
+
+/* Medium	md	≥768px */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large	lg	≥992px */
+@media only screen and (min-width: 992px) {
+  .custom-callbar > .row > .col-lg-7 > p {
+    font-size: 2vmax;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  .custom-callbar > .row > .col-lg-4 {
+    height: 50px;
+    line-height: 30px;
+  }
+  .custom-callbar > .row > .col-lg-4 > a {
+    font-size: 1.3vmax;
+  }
+}
+
+/* Extra large	xl	≥1200px */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Extra extra large	xxl	≥1400px */
+@media only screen and (min-width: 1400px) {
+}

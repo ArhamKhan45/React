@@ -1,0 +1,41 @@
+.custom-two-person > .row > .col-lg-6 > p {
+  color: #777;
+  margin-bottom: 24px;
+
+  letter-spacing: 1px;
+}
+
+.custom-two-person > .row > .col-lg-6 > button:hover {
+  color: white !important;
+}
+
+/* Extra small	 xsm	<576px */
+@media only screen and (min-width: 0px) {
+  .custom-two-person > .row > .col-lg-6 > p {
+    font-size: 17px;
+    margin-bottom: 24px;
+  }
+}
+
+/* Small	sm	≥576px */
+@media only screen and (min-width: 576px) {
+}
+
+/* Medium	md	≥768px */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large	lg	≥992px */
+@media only screen and (min-width: 992px) {
+  .custom-two-person > .row > .col-lg-6 > p {
+    font-size: 18px;
+  }
+}
+
+/* Extra large	xl	≥1200px */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Extra extra large	xxl	≥1400px */
+@media only screen and (min-width: 1400px) {
+}

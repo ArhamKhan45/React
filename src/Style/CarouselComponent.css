@@ -1,0 +1,103 @@
+.custom-carousel {
+}
+
+.custom-carousel .carousel-inner > .carousel-item > img {
+  height: 600px;
+}
+
+.custom-carousel .carousel-inner > .carousel-item > .carousel-caption {
+  bottom: 35%;
+}
+.custom-carousel .carousel-inner > .carousel-item > .carousel-caption > h3 {
+  font-size: 3.7vmax;
+  margin-bottom: 2.8vmax;
+}
+.custom-carousel .carousel-inner > .carousel-item > .carousel-caption > p {
+  font-size: 3vmax;
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+.custom-carousel .carousel-control-next,
+.custom-carousel .carousel-control-prev {
+  display: none;
+}
+
+.custom-carousel .carousel-indicators {
+  bottom: 25%;
+}
+.custom-carousel .carousel-indicators > button {
+  width: 12px;
+  height: 12px;
+  margin: 5px 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+/* .custom-carousel > .carousel-indicators > button {
+  background-color: transparent;
+} */
+.custom-carousel .carousel-indicators > button.active {
+  background-color: white;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 0px) {
+  .custom-carousel .carousel-inner > .carousel-item > img {
+    height: 450px;
+  }
+
+  .custom-carousel .carousel-inner > .carousel-item > .carousel-caption {
+    bottom: 35%;
+  }
+  .custom-carousel .carousel-inner > .carousel-item > .carousel-caption > h3 {
+    font-size: 5vmax;
+    margin-bottom: 1.8vmax;
+  }
+  .custom-carousel .carousel-inner > .carousel-item > .carousel-caption > p {
+    font-size: 2vmax;
+    width: 100%;
+  }
+
+  .custom-carousel .carousel-indicators {
+    bottom: 25%;
+  }
+  .custom-carouse .carousel-indicators > button {
+    margin: 5px 10px;
+  }
+}
+@media only screen and (min-width: 576px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+  .custom-carousel .carousel-inner > .carousel-item > img {
+    height: 600px;
+  }
+
+  .custom-carousel .carousel-inner > .carousel-item > .carousel-caption {
+    margin-bottom: 0px;
+  }
+  .custom-carousel .carousel-inner > .carousel-item > .carousel-caption > h3 {
+    font-size: 3.7vmax;
+    margin-bottom: 30px;
+  }
+  .custom-carousel .carousel-inner > .carousel-item > .carousel-caption > p {
+    font-size: 1.6vmax;
+  }
+
+  .custom-carousel .carousel-indicators {
+    bottom: 25%;
+  }
+  .custom-carousel .carousel-indicators > button {
+    margin: 5px 10px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1400px) {
+}

@@ -1,0 +1,53 @@
+{
+  "WorldwideCustomers": [
+    {
+      "title": "Worldwide Customers",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.consectetur adipiscing elit",
+      "buttontitle": "Learn More",
+      "buttonlink": ""
+    }
+  ],
+  "PersonalManager": [
+    {
+      "title": "Personal Manager",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.consectetur adipiscing elit",
+      "buttontitle": "Learn More",
+      "button link": ""
+    }
+  ],
+  "GetAFreeQuote": [
+    {
+      "title": "Get a Free Quote",
+      "body": "Or call one of our customer service",
+      "buttontitle": "GET A QUOTE",
+      "buttonlink": ""
+    }
+  ],
+  "MovingWorldwide": [
+    {
+      "title": "Moving Worldwide",
+      "body": "This is a longer card with supporting text below as a natural lead-in to additional content.",
+
+      "buttontitle": "READ MORE",
+      "button link": ""
+    }
+  ],
+  "Everydayismovingday": [
+    {
+      "title": "Every day is moving day",
+      "body": "This is a longer card with supporting text below as a natural lead-in to additional content.",
+
+      "buttontitle": "READ MORE",
+      "button link": ""
+    }
+  ],
+  "ThirdPartyServices": [
+    {
+      "title": "Third Party Services",
+      "body": "This is a longer card with supporting text below as a natural lead-in to additional content.",
+
+      "buttontitle": "READ MORE",
+      "button link": ""
+    }
+  ]
+}

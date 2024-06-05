@@ -1,0 +1,108 @@
+:root {
+  --GetaFreeQuote-color: #ffdd15;
+  --showdisplay-bgcolor: #fffdfd;
+  --showContact-bgcolor: #000000;
+  --showContact-color: #fffdfd;
+}
+.basic-card-showdisplay {
+  background-color: var(--showdisplay-bgcolor);
+}
+.basic-card-showContact,
+.basic-card-showdisplay {
+  /* border: 2px solid red; */
+  padding: 50px;
+  box-shadow: 3px 0px 15px 1px rgba(0, 0, 0, 0.089);
+  transition: all 2s linear;
+}
+
+.basic-card-showdisplay > svg {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.basic-card-showdisplay {
+  text-align: center;
+}
+.basic-card-showdisplay > p,
+.basic-card-showdisplay > svg,
+.basic-card-showdisplay > h3 {
+  margin-bottom: 25px;
+}
+.basic-card-showContact {
+  background-color: var(--showContact-bgcolor);
+  color: var(--showContact-color);
+}
+
+.basic-card-showContact > h3 {
+  color: var(--GetaFreeQuote-color);
+}
+.basic-card-showContact > h3,
+.basic-card-showContact > p:first-of-type {
+  text-align: center;
+}
+.basic-card-showContact > p,
+.basic-card-showContact > input[type="text"] {
+  margin-bottom: 16px;
+}
+.basic-card-showContact > input[type="text"] {
+}
+.basic-card-showContact > input::placeholder {
+  font-size: 17px;
+}
+
+/* hover classes */
+/* .basic-card-showContact,
+.basic-card-showdisplay:hover {
+  transform: translate(5px, 50px);
+} */
+
+/* media queries  */
+
+@media only screen and (min-width: 0px) {
+}
+@media only screen and (min-width: 576px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+  .basic-card-showContact,
+  .basic-card-showdisplay {
+    padding: 50px;
+  }
+
+  .basic-card-showdisplay > svg {
+    margin-top: 20px;
+  }
+
+  .basic-card-showdisplay > p,
+  .basic-card-showdisplay > svg,
+  .basic-card-showdisplay > h3 {
+    margin-bottom: 25px;
+  }
+  .basic-card-showContact > h3 {
+    /* margin-bottom: 20px; */
+    text-align: center;
+    color: var(--GetaFreeQuote-color);
+  }
+  .basic-card-showContact {
+    background-color: var(--showContact-bgcolor);
+    color: var(--showContact-color);
+  }
+
+  .basic-card-showContact > p,
+  .basic-card-showContact > input[type="text"] {
+    margin-bottom: 16px;
+  }
+  .basic-card-showContact > input[type="text"] {
+  }
+  .basic-card-showContact > input::placeholder {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1400px) {
+}
